@@ -1,0 +1,12 @@
+def apakah_lulus(nilai_siswa, nilai_kkm) :
+    if nilai_siswa >= nilai_kkm :
+        return True  
+    else :
+        return False 
+    
+nilai = int(input("masukan nilai siswa: "))
+kkm = 70
+
+hasil = apakah_lulus(nilai, kkm)
+
+print(hasil)
