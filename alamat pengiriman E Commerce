@@ -1,0 +1,7 @@
+def format_alamat(jalan, kota, provinsi, kode_pos) :
+    alamat = f"jalan: {jalan}, kota: {kota}, provinsi: {provinsi}, kode_pos: {kode_pos}"
+    return alamat
+
+hasil = format_alamat("Jln. bojong no 60", "sukabumi", "jawa barat", 40112)
+
+print(hasil)
