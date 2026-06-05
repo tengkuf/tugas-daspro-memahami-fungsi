@@ -1,0 +1,11 @@
+def validasi_tweet(teks_input) :
+    if len(teks_input) <= 140 :
+        return teks_input
+    else :
+        return teks_input[:140] + "....."
+    
+tweet_aman = "haloo brow, tepangken nami abdi massdooeee, abdi mahasiswa teknik informatika di nusa putra university"
+print(validasi_tweet(tweet_aman))
+
+tweet_panjang = "Q" * 160
+print(validasi_tweet(tweet_panjang))
